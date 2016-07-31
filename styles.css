@@ -1,0 +1,24 @@
+* {
+  background: lightgray;
+}
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.space {
+  padding: 5px 0;
+  margin: 5px 0;
+}
