@@ -9,19 +9,19 @@ function determineConverter (clickEvent) {
   var temp = document.getElementById("temperature").value;
   if (document.getElementById("cel").checked) {
     if (temp > 32) {
-      document.getElementById("answer").innerHTML = "<span class='red'>" + toFahrenheit(temp) + " F</span>"
+      document.getElementById("answer").innerHTML = "<span class='red'>" + toFahrenheit(temp) + "&deg; F</span>"
     } else if (temp < 0) {
-      document.getElementById("answer").innerHTML = "<span class='blue'>" + toFahrenheit(temp) + " F</span>"
+      document.getElementById("answer").innerHTML = "<span class='blue'>" + toFahrenheit(temp) + "&deg; F</span>"
     } else {
-      document.getElementById("answer").innerHTML = "<span class='green'>" + toFahrenheit(temp) + " F</span>"
+      document.getElementById("answer").innerHTML = "<span class='green'>" + toFahrenheit(temp) + "&deg; F</span>"
     }
   } else {
     if (temp > 90) {
-      document.getElementById("answer").innerHTML = "<span class='red'>" + toCelsius(temp) + " C</span>"
+      document.getElementById("answer").innerHTML = "<span class='red'>" + toCelsius(temp) + "&deg; C</span>"
     } else if (temp < 32) {
-      document.getElementById("answer").innerHTML = "<span class='blue'>" + toCelsius(temp) + " C</span>"
+      document.getElementById("answer").innerHTML = "<span class='blue'>" + toCelsius(temp) + "&deg; C</span>"
     } else {
-      document.getElementById("answer").innerHTML = "<span class='green'>" + toCelsius(temp) + " C</span>"
+      document.getElementById("answer").innerHTML = "<span class='green'>" + toCelsius(temp) + "&deg; C</span>"
     }
   }
 }

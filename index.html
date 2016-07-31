@@ -2,16 +2,17 @@
 <html>
 <head>
   <title>CONVERTER FILE</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <form>
-    <div>Temperature: <input type="number" id="temperature"></div>
-    <div>Type: <br/>
+    <div class="space">Temperature: <input type="number" id="temperature"></div>
+    <div class="space">Type: <br/>
       <input type="radio" name="degree" value="celsius" id="cel"> Celsius<br>
       <input type="radio" name="degree" value="fahrenheit" id="far"> Fahrenheit<br>
     </div>
-    <button type="button" id="converter">Convert</button>
-    <div id="answer"></div>
+    <button type="button" id="converter" class="space">Convert</button>
+    <div id="answer" class="space"></div>
   </form>
   <script src="/converter.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
