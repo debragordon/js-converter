@@ -4,7 +4,7 @@
 ![Site Screenshot](https://raw.githubusercontent.com/debragordon/js-converter/master/screenshots/js-converter.png)
 
 ## Description
-We were tasked showcase our knowledge of targeting and styling elements using CSS.
+We were tasked to write a program that will convert a temperature from fahrenheit to celsius, or from celsius to fahrenheit. This was an exercise in Javascript, not CSS.
 
 ## How to Run
 1. Clone repo to your local computer
